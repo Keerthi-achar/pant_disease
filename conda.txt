@@ -1,0 +1,10 @@
+conda init
+conda create -n envname python=3.10
+conda activate envname
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+python -m pip install tensorflow==2.7.0
+pip install tensorflow_gpu==2.8.0
+pip install protobuf
+pip install protobuf==3.20.0  # Replace with the appropriate version number
+jupyter notebook
+conda deactivate

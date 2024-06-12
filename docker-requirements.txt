@@ -1,0 +1,11 @@
+tensorflow-cpu==2.7.0
+pillow==8.1.0
+python-multipart==0.0.5
+numpy==1.19.5
+matplotlib==3.4.3
+fastapi==0.73.0
+uvicorn==0.15.0
+python-dotenv==0.19.0
+opencv-python-headless==4.5.3.56
+cloudinary==1.39.1
+urllib3==1.26.6
